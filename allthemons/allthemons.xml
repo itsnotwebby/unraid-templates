@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support>https://forums.unraid.net/topic/----THIS-NEEDS-TO-BE-CHANGED/</Support>
+  <Support>https://https://forums.unraid.net/topic/198558-support-itsnotwebby-modded-minecraft-servers-for-unraid/</Support>
   <Project>https://www.curseforge.com/minecraft/modpacks/all-the-mons</Project>
   <Overview>A Modded Java Minecraft server container for Unraid that runs All the Mons</Overview>
   <Category>GameServers:</Category>
