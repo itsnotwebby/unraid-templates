@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>allthemods11</Name>
+  <Repository>itsnotwebby/unraid-atm11:latest</Repository>
+  <Registry>https://hub.docker.com/repository/docker/itsnotwebby/unraid-atm11</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://forums.unraid.net/topic/----THIS-NEEDS-TO-BE-CHANGED/</Support>
+  <Project>https://www.curseforge.com/minecraft/modpacks/all-the-mods-11</Project>
+  <Overview>A Modded Java Minecraft server container for Unraid that runs All the Mods 11</Overview>
+  <Category>GameServers:</Category>
+  <ExtraSearchTerms>minecraft allthemods11 atm11 atm </ExtraSearchTerms>
+  <TemplateURL>https://raw.githubusercontent.com/itsnotwebby/unraid-templates/master/allthemods11/allthemods11.xml</TemplateURL>
+  <Icon>https://media.forgecdn.net/avatars/thumbnails/1389/739/256/256/638901033593272382.png</Icon>
+<Config 
+    Name="Installed Location" 
+    Target="/data" Default="/mnt/user/appdata/allthemods11/" 
+    Mode="rw" Description="Path to store the installed server files." 
+    Type="Path" 
+    Display="always" 
+    Required="true" 
+    Mask="false">/mnt/user/appdata/allthemods11/</Config>
+<Config 
+    Name="Port" 
+    Target="25565" 
+    Default="25565" 
+    Mode="tcp" 
+    Description="Port for the server" 
+    Type="Port" Display="always" 
+    Required="false" Mask="false">25565</Config>
+<Config 
+    Name="EULA" 
+    Target="EULA" 
+    Default="" 
+    Mode="" 
+    Description="Do you agree to the Mojang EULA available at https://account.mojang.com/documents/minecraft_eula? Server will not start without accepting. Set to 'true' to accept." 
+    Type="Variable" 
+    Display="always" 
+    Required="true" 
+    Mask="false">false</Config>
+<Config 
+    Name="JVM_OPTS" 
+    Target="JVM_OPTS" 
+    Default="--Xms6144m -Xmx8192m" 
+    Mode="" 
+    Description="JAVA Options&#13;&#10;Performance Tip: Allocate at least 6-8 GB of RAM for optimal performance"
+    Type="Variable" 
+    Display="always" 
+    Required="false" 
+    Mask="false">-Xms6144m -Xmx8192m</Config>
+<Config 
+    Name="MOTD" 
+    Target="MOTD" 
+    Default="" 
+    Mode="" 
+    Description="Set the server MOTD" 
+    Type="Variable" 
+    Display="always" 
+    Required="false" 
+    Mask="false"/>
+<Config 
+    Name="ALLOW_FLIGHT" 
+    Target="ALLOW_FLIGHT" 
+    Default="true" 
+    Mode="" 
+    Description="Set Flight" 
+    Type="Variable" 
+    Display="always" 
+    Required="false" 
+    Mask="false">true</Config>
+<Config 
+    Name="MAX_PLAYERS" 
+    Target="MAX_PLAYERS" 
+    Default="" 
+    Mode="" 
+    Description="Set Player Limit" 
+    Type="Variable" 
+    Display="always" 
+    Required="false" 
+    Mask="false">5</Config>
+<Config 
+    Name="ONLINE_MODE" 
+    Target="ONLINE_MODE" 
+    Default="true" 
+    Mode="" 
+    Description="Set Online Modde" 
+    Type="Variable" 
+    Display="always" 
+    Required="false" 
+    Mask="false">true</Config>
+<Config 
+    Name="ENABLE_WHITELIST" 
+    Target="ENABLE_WHITELIST" 
+    Default="true" 
+    Mode="" 
+    Description="Enable (true)/Disable (false) Whitelist on the Server" 
+    Type="Variable" 
+    Display="always" 
+    Required="false" 
+    Mask="false">true</Config>
+<Config 
+    Name="WHITELIST_USERS" 
+    Target="WHITELIST_USERS" 
+    Default="" 
+    Mode="" 
+    Description="Add Users comma-seperated to the Whitelist.&#13;&#10;Example Value:&#13;&#10;TestUserName1, TestUserName2" 
+    Type="Variable" 
+    Display="always" 
+    Required="false" 
+    Mask="false"/>
+<Config 
+    Name="OP_USERS" 
+    Target="OP_USERS"
+    Default="" 
+    Mode="" 
+    Description="" 
+    Type="Variable" 
+    Display="always" 
+    Required="false"
+    Mask="false"/>
+</Container>
