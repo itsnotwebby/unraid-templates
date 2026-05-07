@@ -13,7 +13,7 @@
   <Category>GameServers:</Category>
   <ExtraSearchTerms>minecraft allthemods11 atm11 atm </ExtraSearchTerms>
   <TemplateURL>https://raw.githubusercontent.com/itsnotwebby/unraid-templates/master/allthemods11/allthemods11.xml</TemplateURL>
-  <Icon>https://media.forgecdn.net/avatars/thumbnails/1389/739/256/256/638901033593272382.png</Icon>
+  <Icon>https://media.forgecdn.net/avatars/thumbnails/1757/481/256/256/639118126616359223.png</Icon>
 <Config 
     Name="Installed Location" 
     Target="/data" Default="/mnt/user/appdata/allthemods11/" 
