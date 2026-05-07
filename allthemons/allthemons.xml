@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>All the Mons</Name>
+  <Name>AllTheMons</Name>
   <Repository>itsnotwebby/docker-atmons:latest</Repository>
   <Registry>https://hub.docker.com/repository/docker/itsnotwebby/docker-atmons</Registry>
   <Network>bridge</Network>
